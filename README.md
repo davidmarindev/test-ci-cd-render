@@ -44,3 +44,5 @@ CI (modo no interactivo):
 ```bash
 npm run test:ci
 ```
+
+### Proyecto de prueba para CI/CD
