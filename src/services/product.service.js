@@ -18,9 +18,9 @@ function createProduct(data) {
   const title = data && data.title;
   const price = data && data.price;
 
-  if (typeof title !== 'string' || title.trim().length === 0) {
-    throw new Error('title is required');
-  }
+  // if (typeof title !== 'string' || title.trim().length === 0) {
+  //   throw new Error('title is required');
+  // }
 
   if (typeof price !== 'number' || Number.isNaN(price) || price <= 0) {
     throw new Error('price must be a number greater than 0');
