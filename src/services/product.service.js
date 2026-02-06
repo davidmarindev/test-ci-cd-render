@@ -19,7 +19,7 @@ function createProduct(data) {
   const price = data && data.price;
 
   if (typeof title !== 'string' || title.trim().length === 0) {
-    throw new Error('title is required');
+    throw new Error('title');
   }
 
   if (typeof price !== 'number' || Number.isNaN(price) || price <= 0) {
